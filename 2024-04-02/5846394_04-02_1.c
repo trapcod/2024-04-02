@@ -67,7 +67,7 @@ int main(void)
 	poly_multiply(As, Ae, Bs, Be, &Cs, &Ce);
 	print_poly(As, Ae);
 	print_poly(Bs, Be);
-	printf("-----------------------------------------------------------------------------\n");
+	printf("---------------------------------------------------------------------------\n");
 	print_poly(Cs, Ce);
 	return 0;
 }
